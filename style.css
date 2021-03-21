@@ -1,0 +1,101 @@
+/**{ display: none; }*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.jumbotron{
+/*	background-color: #ccc;
+*/
+	background-size: cover;
+	height: 100vh;
+	background-position: 90% ;
+	/*filter: blur(5px);*/
+	/*position: absolute;*/
+	color: #fff;
+	padding: 0 100px;
+}
+
+.jumbotron-background{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 100vh;
+	background-image: url(image/makanan2.jpg);
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+	filter: blur(1.5px);
+}
+
+
+
+.utama{
+	text-align: center;
+}
+
+
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.hamburger{
+	margin-right: 50px;
+	cursor: pointer;
+}
+
+
+
+.line{
+	background-color: #fff;
+	width: 40px;
+	height: 3px;
+	margin: 7px 0;
+}
+
+.nav-brand h3{
+	font-size: 32px;
+	font-family: 'Goldman', cursive;
+	}
+
+.nav-menu{
+	display: flex;
+	margin-left: auto;
+}
+
+.nav-menu ul{
+	display: flex;
+}
+
+.nav-menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	font-size: 28px;
+	cursor: pointer;
+}
+
+.nav-menu ul li p{
+	font-family: sans-serif;
+}
+
+.utama{
+	margin-top: 160px;
+}
+
+.utama h1{
+	font-size: 90px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #333;
+}
+
+.utama span{
+	font-style: italic;
+	text-shadow: 1px 1px 1px #333;
+}
+
