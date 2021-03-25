@@ -275,3 +275,203 @@ nav{
 	color: #333;
 	cursor: pointer;
 }
+
+.hero{
+	background-image: url(image/anggur.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	padding: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #fff;
+	font-size: 32px;
+}
+
+.hero-angka{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+}
+
+.lingkaran{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+
+	border: 2px solid #fff;
+	border-radius: 50%;
+
+}
+
+.belahketupat{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border: 2px solid #fff;
+	transform: rotate(45deg);
+	
+}
+
+.section{
+	margin: 50px 350px;
+	border-left: 10px solid #ddd;
+	padding: 0 20px;
+	display: flex;
+}
+
+.section-teks{
+	margin: 0 20px;
+	font-size: 24px;
+	color: #333;
+
+}
+
+.quote-right{
+	display: flex;
+	align-items: flex-end;
+}
+
+.quote{
+	color: #ccc;
+	font-size: 24px;
+}
+
+.wadah-card{
+	padding: 100px 200px;
+	background-color: #ddd;
+	/*margin-bottom: 300px;*/
+	/*margin-top: 100px;*/
+}
+
+.judul-card{
+	font-size: 28px;
+	padding-right: 100px;
+}
+
+.head-card{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 70px;
+}
+
+.card-logo{
+	font-size: 32px;
+}
+
+.like-comment{
+	color: #aaa;
+}
+
+.like-card{
+	position: relative;
+	display: flex;
+	align-items: center;
+	font-size: 36px;
+}
+
+.comment-card{
+	position: relative;
+	display: flex;
+	align-items: center;
+	font-size: 36px;
+}
+
+.card-bentuk{
+
+	position: absolute;
+	border: 2px solid #aaa;
+	width: 55px;
+	height: 55px;
+	top: 20px;
+	left: -80px;
+	/*margin: 0 auto;*/
+}
+
+.card-bentuk i{
+	font-size: 36px;
+}
+
+.body-card{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card{
+	background-color: #fff;
+	width: 300px;
+	height: 400px;
+	margin: 20px;
+	position: relative;
+	box-shadow: -1px 1px 5px #ccc;
+}
+
+.card img{
+	width: 300px;
+	height: 200px;
+}
+
+.card-teks{
+	padding: 30px;
+}
+
+.card-teks h4{
+	font-family: sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.card-teks span{
+	color: #333;
+	/*margin-top: 20px;*/
+}
+
+.card-panah{
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+	margin-top: auto;
+	font-size: 28px;
+	color: #aaa;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	background-color: #333;
+	padding: 100px;
+}
+
+.footer-content{
+	width: 250px;
+}
+
+
+.footer hr{
+	margin: 20px 0;
+	border-color:  #aaa;
+}
+
+.footer h3{
+	font-size: 24px;
+	color: #aaa;
+}
+
+.footer li{
+	margin-top: 10px;
+	list-style: none;
+	color: #aaa;
+	letter-spacing: 1px;
+	
+}
+
+.footer p{
+	color: #aaa;
+	letter-spacing: 1px;
+}
