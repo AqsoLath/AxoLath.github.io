@@ -81,6 +81,8 @@ nav{
 	background-position: center 65%;
 	z-index: -1;
 	filter: blur(1.5px);
+	resize: none;
+
 }
 
 
@@ -344,6 +346,7 @@ nav{
 .wadah-card{
 	padding: 100px 200px;
 	background-color: #ddd;
+	/*display: none;*/
 	/*margin-bottom: 300px;*/
 	/*margin-top: 100px;*/
 }
@@ -474,4 +477,297 @@ nav{
 .footer p{
 	color: #aaa;
 	letter-spacing: 1px;
+}
+
+.br-hilang{
+	display: none;
+}
+
+@media (max-width:768px){
+	*{
+		/*padding: 0 !important;*/
+	}
+
+	nav{
+		justify-content: flex-start;
+		/*align-items: flex-start;*/
+
+		padding-top: 10px;
+		/*margin-bottom: 0;*/
+
+	}
+
+	.nav-menu{
+		display: none;
+	}
+
+	.jumbotron{
+		padding: 20px;
+		height: 500px;
+		padding-top: 0;
+	}
+
+	.jumbotron-background{
+		height: 500px;
+	}
+	.utama{
+		margin-top: 100px;
+	}
+
+	.wadah-bentuk{
+		margin-top: 20px;
+	}
+	.utama h1{
+		font-size: 4rem;
+	}
+
+	.quotes{
+		padding: 10px;
+		margin: 50px;
+		margin-top: -50px;
+	}
+
+	.quotes p{
+		font-size: 1.25rem;
+		margin-top: 10px;
+	}
+
+	.paragraf{
+		padding: 0;
+		margin: 50px;
+		/*font-size: 1rem;*/
+	}
+
+	.paragraf p {
+		font-size: 1.1rem;
+	}
+
+	.slide{
+		/*padding: 50px;*/
+		margin: 100px;
+	}
+
+	.slide-subjudul{
+		padding: 20px 0;
+	}
+
+	.slide-teks{
+		text-align: center;
+	}
+
+	.slide img{
+		/*display: none;*/
+		position: static;
+		width: 200px;
+		text-align: center;
+		margin: 10px;
+		/*margin: 0 auto;*/
+	}
+
+	.slide-arrow{
+		/*position: static;*/
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.slide-arrow i {
+		margin: 0 15px;
+
+	}
+
+	.section{
+		margin: 50px 150px;
+	}
+
+	.section p{
+		font-size: 1.25rem;
+	}
+
+	.wadah-card{
+		padding: 50px;
+	}
+
+	.body-card{
+		flex-direction: column;
+	}
+
+	.card{
+		margin: 20px auto;
+		/*margin: 20px;*/
+	}
+
+	.card-bentuk{
+		font-size: 20px;
+	}
+
+	.card-logo{
+		display: none;
+	}
+
+	.like-comment h3{
+		font-size: 2rem;
+
+	}
+
+	.footer{
+		padding: 50px;
+	}
+
+
+
+	.br-hilang {
+		/*display: inline;*/
+	}
+}
+
+
+
+
+
+@media (max-width:481px){
+	.nav-brand h3{
+		font-size: 1.25rem;
+	}
+
+	.hamburger{
+		margin-right: 20px;
+	}
+
+	.jumbotron-background{
+		height: 400px;
+	}
+
+	.jumbotron{
+		height: 400px;
+	}
+
+	.jumbotron h1{
+		font-size: 2.5rem;
+		line-height: 40px;
+	}
+
+	.wadah-bentuk{
+		display: none;
+	}
+
+	.quotes{
+		margin: 20px;
+		margin-top: -50px;
+	}
+
+	.quotes p{
+		font-size: 1.1rem;
+	}
+
+	.quotes span{
+		font-size: 1rem;
+	}
+
+	.paragraf{
+		margin: 20px;
+	}
+
+	.paragraf p{
+		font-size: 1rem;
+		line-height: 20px;
+	}
+
+	.slide{
+		margin: 20px;
+	}
+
+	.slide-judul{
+		padding: 10px;
+	}
+
+	.slide-judul h2{
+		font-size: 2rem;
+	}
+
+	.slide-logo{
+		width: 60px;
+		height: 60px;
+		margin-right: 10px;
+	}
+
+	.slide-logo i{
+		font-size: 2rem;
+	}
+
+	.slide-subjudul h3{
+		font-size: 1.25rem;
+		/*padding: 0;*/
+
+	}
+
+	.slide-teks{
+		padding: 20px;
+		margin: 0;
+	}
+
+	.slide-teks p{
+		width: auto;
+		/*margin: 0;*/
+	}
+
+	.hero{
+		height: 200px;
+	}
+
+	.lingkaran{
+		width: 72px;
+		height: 72px;
+	}
+
+	.belahketupat{
+		width: 60px;
+		height: 60px;
+	}
+
+	.hero-angka h1{
+		font-size: 2rem;
+	}
+
+	.section{
+		margin: 20px;
+		padding: 5px;
+	}
+
+	.section-teks{
+	margin: 0 5px;
+	/*padding: 5px;*/
+	font-size:/ 1rem;
+
+	}
+	.section-teks p{
+	/*margin: 0 5px;*/
+	font-size: 1.1rem;
+
+	}
+
+	.section i{
+		font-size: 1.1rem;
+	}
+
+	.wadah-card{
+		padding: 20px;
+	}
+
+	.card{
+		width: 240px;
+	}
+
+	.card img{
+		width: 240px;
+		height: 160px;
+	}	
+
+	.like-comment{
+		display: none;
+	}
+
+	.footer{
+		flex-direction: column;
+		padding: 20px;
+	}
 }
