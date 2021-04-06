@@ -178,7 +178,10 @@ nav{
 
 .paragraf{
 	/*border : 1px solid red;*/
-	margin : 100px 350px;
+	/*margin : 100px 350px;*/
+	margin: 100px auto;
+	width: 60%;
+
 }
 
 .paragraf p{
@@ -344,7 +347,7 @@ nav{
 }
 
 .wadah-card{
-	padding: 100px 200px;
+	padding: 100px 0;
 	background-color: #ddd;
 	/*display: none;*/
 	/*margin-bottom: 300px;*/
@@ -354,6 +357,7 @@ nav{
 .judul-card{
 	font-size: 28px;
 	padding-right: 100px;
+	margin: 0 auto;
 }
 
 .head-card{
@@ -361,6 +365,7 @@ nav{
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 70px;
+	padding: 0 200px;
 }
 
 .card-logo{
@@ -403,6 +408,8 @@ nav{
 .body-card{
 	display: flex;
 	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .card{
@@ -483,6 +490,20 @@ nav{
 	display: none;
 }
 
+
+@media (max-width:1024px){
+	.body-card{
+		flex-direction: column;
+		/*margin-right: auto;
+		margin-left: auto;*/
+		margin: 0 auto;
+	}
+
+	.card{
+		margin: 0 auto;
+	}
+}
+
 @media (max-width:768px){
 	*{
 		/*padding: 0 !important;*/
@@ -523,7 +544,7 @@ nav{
 
 	.quotes{
 		padding: 10px;
-		margin: 50px;
+		margin: 50px auto;
 		margin-top: -50px;
 	}
 
@@ -664,7 +685,7 @@ nav{
 	}
 
 	.paragraf{
-		margin: 20px;
+		margin: 20px auto;
 	}
 
 	.paragraf p{
